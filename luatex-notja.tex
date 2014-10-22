@@ -1,0 +1,17 @@
+% このファイルの文字コードは UTF-8
+\documentclass[a4paper]{article}
+\usepackage{fontspec}
+\setmainfont[Scale=MatchLowercase]{DejaVu Sans} % \rmfamily のフォント
+\setsansfont[Scale=MatchLowercase]{DejaVu Sans}  % \sffamily のフォント
+\setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}       % \ttfamily のフォント
+\begin{document}
+
+This document contains English, \textit{Français}, Српски,
+and Rom\^an\u{a}.
+
+This document contains unicode char, such as ⊸,≗,≑,≓,≨,≳,⊨.
+
+{\sffamily
+If you want the logo {Lua\TeX} then simply type \verb|Lua\TeX|.}
+
+\end{document}
