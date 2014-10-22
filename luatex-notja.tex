@@ -3,7 +3,11 @@
 \usepackage{fontspec}
 \setmainfont[Scale=MatchLowercase]{DejaVu Sans} % \rmfamily のフォント
 \setsansfont[Scale=MatchLowercase]{DejaVu Sans}  % \sffamily のフォント
-\setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}       % \ttfamily のフォント
+\setmonofont[Scale=MatchLowercase]{MS Gothic}       % \ttfamily のフォント
+
+%\usepackage{fancyvrb}
+% \DefineVerbatimEnvironment{code}{Verbatim}{}
+
 \begin{document}
 
 This document contains English, \textit{Français}, Српски,
@@ -13,5 +17,14 @@ This document contains unicode char, such as ⊸,≗,≑,≓,≨,≳,⊨.
 
 {\sffamily
 If you want the logo {Lua\TeX} then simply type \verb|Lua\TeX|.}
+
+\begin{verbatim*}
+start verbatim.
+
+This document contains unicode char, such as ⊸,≗,≑,≓,≨,≳,⊨.
+
+end verbatim.
+\end{verbatim*}
+
 
 \end{document}
